@@ -122,6 +122,7 @@ a{
 					border-radius: 75px;
 					-webkit-box-shadow: rgba(0,0,0,.3) 0 10px 50px, rgba(0,0,0,.3) 0 10px 40px, rgba(0,0,0,.3) 0 10px 30px;
 					margin-bottom: 50px;
+					font-size: 1.5em;
 				}
 				.featurebox img{
 					vertical-align: center;
@@ -133,6 +134,7 @@ a{
 				.featuretitle{
 					margin-top: 0;
 					color: #4ebfe3;
+					font-weight: 200;
 				}
 				.fbvis{
 					display: block;
@@ -183,6 +185,11 @@ a{
 							padding-right: 0;
 							padding-left: 0;
 							font-size: 1.5em;
+
+							h1{
+								font-weight: 200;
+								color: #4ebfe3;
+							}
 						}
 						.fb4 img{
 							width: 25%;
@@ -265,13 +272,13 @@ a{
 							}
 							h3{
 								text-align: center;
-								font-size: 1em;
+								font-size: 0.8em;
 								font-weight: normal;
 								margin: 0;
 							}
 							h4{
 								text-align: center;
-								font-size: 0.8em;
+								font-size: 0.5em;
 								font-weight: normal;
 								margin: 0;
 								margin-top: 5px;
@@ -282,8 +289,6 @@ a{
 				 //FEATURE BOX 6 
 
 				 		button.nb6{
-				 			width: 30%;
-							display: inline-block;
 							text-align: center;
 							background: rgba(78,191,227,0.4);
 							border: none;
@@ -295,11 +300,11 @@ a{
 						.fb6{
 							input{
 								padding: 5px;
-								width: 30%;
 								margin-bottom: 10px;
 								border-radius: 25px;
 								background: lightgrey;
 								color: black;
+								display: block;
 							}
 
 							.featuretitle7{
@@ -307,8 +312,6 @@ a{
 								margin-bottom: 5px;
 							}
 							.news{
-								width: 30%;
-								display: inline-block;
 								text-align: center;
 								background: rgba(78,191,227,0.4);
 								border: none;
